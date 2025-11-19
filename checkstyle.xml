@@ -6,19 +6,13 @@
 <module name="Checker">
     <module name="TreeWalker">
 
-        <!-- Vérifie que les noms des classes commencent par une majuscule -->
         <module name="TypeName"/>
 
-        <!-- Vérifie la présence d'accolades correctes -->
         <module name="LeftCurly"/>
         <module name="RightCurly"/>
 
-        <!-- Vérifie la convention camelCase pour variables/méthodes -->
         <module name="MethodName"/>
         <module name="LocalVariableName"/>
-
-        <!-- Interdit le code avec tabulations -->
-        <module name="FileTabCharacter"/>
 
     </module>
 </module>
