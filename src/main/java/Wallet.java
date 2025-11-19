@@ -35,4 +35,16 @@ public class Wallet {
     public void lose() {
         this.lost = true;
     }
+
+    public List<String> getCardHolder() {
+        return this.cardHolder;
+    }
+
+    public boolean isLost() {
+        return this.lost;
+    }
+
+    public double getMoney() {
+        return this.money;
+    }
 }
